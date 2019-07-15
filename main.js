@@ -1,12 +1,13 @@
 window.onload = function() {
-  var userAgent = navigator.userAgent || navigator.vendor || window.opera;
-  if (/iPad|iPhone|iPod/.test(userAgent) && !window.MSStream) {
-    document.querySelector(".nav a:hover").style.backgroundColor = "#0d171a";
-  }
-  if (/android/i.test(userAgent)) {
-    document.querySelector(".nav a:hover").style.backgroundColor = "#0d171a";
-  }
-  if (/windows phone/i.test(userAgent)) {
+  if (
+    navigator.userAgent.match(/Android/i) ||
+    navigator.userAgent.match(/webOS/i) ||
+    navigator.userAgent.match(/iPhone/i) ||
+    navigator.userAgent.match(/iPad/i) ||
+    navigator.userAgent.match(/iPod/i) ||
+    navigator.userAgent.match(/BlackBerry/i) ||
+    navigator.userAgent.match(/Windows Phone/i)
+  ) {
     document.querySelector(".nav a:hover").style.backgroundColor = "#0d171a";
   }
 };
