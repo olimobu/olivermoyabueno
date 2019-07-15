@@ -1,17 +1,9 @@
-window.onload = function() {
-  /* if (
-    navigator.userAgent.match(/Android/i) ||
-    navigator.userAgent.match(/webOS/i) ||
-    navigator.userAgent.match(/iPhone/i) ||
-    navigator.userAgent.match(/iPad/i) ||
-    navigator.userAgent.match(/iPod/i) ||
-    navigator.userAgent.match(/BlackBerry/i) ||
-    navigator.userAgent.match(/Windows Phone/i)
-  ) {
-    document.querySelector(".nav a", ":hover").style.backgroundColor =
-      "#0d171a";
-  } */
-  document.querySelectorAll(".nav a").addEventListener("click", function() {
-    document.querySelectorAll(".nav a").style.backgroundColor = "#0d171a";
+/* Restaurar el color de los enlaces de navegación tras :hover en móvil */
+
+var x = document.querySelectorAll(".nav a");
+
+for (let index = 0; index < x.length; index++) {
+  x[index].addEventListener("click", function(event) {
+    x[index].style.backgroundColor = "#0d171a";
   });
-};
+}
