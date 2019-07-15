@@ -11,7 +11,7 @@ window.onload = function() {
     document.querySelector(".nav a", ":hover").style.backgroundColor =
       "#0d171a";
   } */
-  document.querySelector(".nav a").addEventListener("click", function() {
+  document.querySelectorAll(".nav a").addEventListener("click", function() {
     document.querySelector(".nav a").style.backgroundColor = "#0d171a";
   });
 };
