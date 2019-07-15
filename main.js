@@ -12,6 +12,6 @@ window.onload = function() {
       "#0d171a";
   } */
   document.querySelectorAll(".nav a").addEventListener("click", function() {
-    document.querySelector(".nav a").style.backgroundColor = "#0d171a";
+    document.querySelectorAll(".nav a").style.backgroundColor = "#0d171a";
   });
 };
