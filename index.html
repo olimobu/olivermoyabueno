@@ -5,11 +5,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>Oliver Moya Bueno | Compositor, Clarinetista & Diseñador Web</title>
+    <link rel="shortcut icon" href="images/logo.svg" type="image/svg" />
     <link href="main.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
     <header>
-      <nav id="nav">
+      <nav class="nav">
         <a href="#SobreMi">Sobre Mi</a>
         <a href="#Portafolio">Portafolio</a>
         <a href="#Creditos">Créditos</a>
@@ -17,6 +18,9 @@
       </nav>
     </header>
     <div id="content">
+      <figure id="logo">
+        <img src="images/logo.svg" alt="Logo" />
+      </figure>
       <h1>Oliver Moya Bueno<br />Compositor, Clarinetista & Diseñador Web</h1>
       <hr />
       <section>
@@ -36,7 +40,7 @@
             <i>Melodyne</i> o <i>Izotope RX7</i>. Familiarizado con
             <i>Premiere</i>, <i>After-Effects</i>, <i>Unity</i>, <i>Unreal</i>,
             <i>GameMaker</i> y <i>Godot</i>. Nociones de programación en
-            <i>C#</i>, <i>Python</i>, <i>GDScript</i> y <i>GML</i>. Asistente
+            <i>C#</i>, <i>GML</i>, <i>Python</i> y <i>GDScript</i>. Asistente
             musical en el desarrollo de diversos productos de software musical
             lanzados al mercado (en
             <a href="https://en.wikipedia.org/wiki/Melomics">Melomics</a> y
@@ -47,8 +51,13 @@
             <strong>Clarinetista</strong> titulado con más de veinte años de
             experiencia como solista, en agrupación camerística, banda y
             orquesta. Premiado en numerosos certámenes. Fundador del Dúo
-            Clarsphian y de Hey, Listen!, un trio musical dedicado a la difusión
-            de la música de videojuegos, cine y anime.
+            Clarsphian y de
+            <a
+              href="http://olimobu.github.io/heylistenmusicband"
+              target="_blank"
+              >Hey, Listen!</a
+            >, un trio musical dedicado a la difusión de la música de
+            videojuegos, cine y anime.
           </li>
           <li>
             <strong>Diseñador Web</strong> con más de dos años de experiencia en
@@ -59,7 +68,7 @@
       </section>
       <section>
         <h2 id="Portafolio">Portafolio</h2>
-        <div class="video-container">
+        <figure class="video-container">
           <iframe
             width="680"
             height="382"
@@ -68,8 +77,8 @@
             allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
             allowfullscreen
           ></iframe>
-        </div>
-        <div id="icons">
+        </figure>
+        <div class="icons">
           <a href="https://olivermoyabueno.bandcamp.com/" target="_blank">
             <figure>
               <img src="images/bandcamp-brands.svg" alt="Bandcamp" />
@@ -178,18 +187,41 @@
       </section>
       <section>
         <h2 id="Contacto">Contacto</h2>
-        <p>
-          Para cualquier consulta o petición, no dude en ponerse en contacto por
+        <div class="icons">
           <a href="mailto:oliver.moya.bueno@gmail.com" target="_blank">
-            correo electrónico
-          </a>
-          o
-          <a href="tel:+34637264909" target="_blank">teléfono</a>.
-        </p>
+            <figure>
+              <img src="images/envelope-solid.svg" alt="Correo e." />
+              <figcaption>Correo e.</figcaption>
+            </figure></a
+          >
+          <a href="tel:+34637264909" target="_blank">
+            <figure>
+              <img src="images/phone-square-solid.svg" alt="Teléfono" />
+              <figcaption>Teléfono</figcaption>
+            </figure></a
+          >
+          <a href="https://twitter.com/olimobu" target="_blank">
+            <figure>
+              <img src="images/twitter-square-brands.svg" alt="Twitter" />
+              <figcaption>Twitter</figcaption>
+            </figure></a
+          >
+          <a
+            href="https://www.linkedin.com/in/olivermoyabueno/"
+            target="_blank"
+          >
+            <figure>
+              <img src="images/linkedin-brands.svg" alt="LinkedIn" />
+              <figcaption>LinkedIn</figcaption>
+            </figure></a
+          >
+        </div>
       </section>
     </div>
     <footer>
-      <p>© Oliver Moya Bueno 2014-2019 • Todos los derechos reservados</p>
+      <nav class="nav">
+        <p>© Oliver Moya Bueno 2014-2019 • Todos los derechos reservados</p>
+      </nav>
     </footer>
   </body>
 </html>

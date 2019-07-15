@@ -43,20 +43,21 @@ a {
 
 /* NAV */
 
-#nav {
+.nav {
   text-align: center;
   background-color: #0d171a;
   padding: 1.5vw;
+  font-family: "Raleway", "sans-serif";
+  color: #f2f1f0;
 }
 
-#nav a {
-  font-family: "Raleway", "sans-serif";
+.nav a {
   color: #f2f1f0;
   text-decoration: none;
   padding: 1.5vw;
 }
 
-#nav a:hover {
+.nav a:hover {
   background-color: #1f547e;
   transition: background-color 0.3s;
 }
@@ -69,8 +70,13 @@ a {
 }
 
 h1,
-hr {
+hr,
+#logo {
   text-align: center;
+}
+
+#logo img {
+  width: 22vmin;
 }
 
 hr {
@@ -86,18 +92,18 @@ hr {
 
 /* ICONOS */
 
-#icons {
+.icons {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
 }
 
-#icons img {
+.icons img {
   width: 70px;
   height: auto;
 }
 
-#icons figcaption {
+.icons figcaption {
   text-align: center;
 }
 
