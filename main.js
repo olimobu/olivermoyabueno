@@ -1,11 +1,13 @@
 window.onload = function() {
   /* Restaurar el color de los enlaces de navegación tras :hover en móvil */
-
-  var x = document.querySelectorAll(".nav a");
-
-  for (let index = 0; index < x.length; index++) {
-    x[index].addEventListener("click", function(event) {
-      x[index].style.backgroundColor = "#0d171a";
+  var navLinks = document.querySelectorAll(".nav a");
+  for (let index = 0; index < navLinks.length; index++) {
+    navLinks[index].addEventListener("click", function(event) {
+      navLinks[index].style.backgroundColor = "#0d171a";
     });
   }
+  /* Introducir año actual en la información del Copyright */
+  var date = new Date();
+  var currentYear = date.getFullYear();
+  document.getElementById("currentYear").innerText = currentYear;
 };
