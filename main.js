@@ -8,7 +8,7 @@ window.onload = function() {
     navigator.userAgent.match(/BlackBerry/i) ||
     navigator.userAgent.match(/Windows Phone/i)
   ) {
-    
-    document.querySelector(".nav a", ":hover").style.backgroundColor = "#0d171a";
+    document.querySelector(".nav a", ":hover").style.backgroundColor =
+      "#0d171a";
   }
 };
