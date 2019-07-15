@@ -1,5 +1,5 @@
 window.onload = function() {
-  if (
+  /* if (
     navigator.userAgent.match(/Android/i) ||
     navigator.userAgent.match(/webOS/i) ||
     navigator.userAgent.match(/iPhone/i) ||
@@ -10,5 +10,8 @@ window.onload = function() {
   ) {
     document.querySelector(".nav a", ":hover").style.backgroundColor =
       "#0d171a";
-  }
+  } */
+  document.querySelector(".nav a").addEventListener("click", function() {
+    document.querySelector(".nav a").style.backgroundColor = "#0d171a";
+  });
 };
