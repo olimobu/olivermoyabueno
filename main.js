@@ -1,4 +1,8 @@
 window.onload = function() {
+  /* Introducir año actual en la información del Copyright */
+  var date = new Date();
+  var currentYear = date.getFullYear();
+  document.getElementById("currentYear").innerText = currentYear;
   /* Restaurar el color de los enlaces de navegación tras :hover en móvil */
   var navLinks = document.querySelectorAll(".nav a");
   for (let index = 0; index < navLinks.length; index++) {
@@ -6,8 +10,4 @@ window.onload = function() {
       navLinks[index].style.backgroundColor = "#0d171a";
     });
   }
-  /* Introducir año actual en la información del Copyright */
-  var date = new Date();
-  var currentYear = date.getFullYear();
-  document.getElementById("currentYear").innerText = currentYear;
 };
