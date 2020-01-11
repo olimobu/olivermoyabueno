@@ -15,8 +15,6 @@
 
 body {
     margin: 0 auto;
-    font-family: "OpenSans",
-        sans-serif;
     color: #1F1F20;
     background-color: #FCF6F5;
 }
@@ -69,7 +67,7 @@ h1 {
 
 h2 {
     font-family: "Raleway",
-        sans-serif;
+    sans-serif;
     font-size: 1.5em;
     font-weight: 500;
 }
@@ -115,6 +113,8 @@ footer {
 #content {
     margin-left: 15%;
     margin-right: 15%;
+    font-family: "OpenSans",
+    sans-serif;
 }
 
 .navigation {
