@@ -117,7 +117,8 @@ footer {
 
 .navigation {
     list-style-type: none;
-    margin: 0;
+    margin-left: 10%;
+    margin-right: 10%;
     padding: 0;
     display: flex;
     flex-wrap: wrap;
