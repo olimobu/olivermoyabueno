@@ -131,6 +131,7 @@ footer {
 
 .navigation img {
     max-width: 30px;
+    width: 5vmin;
 }
 
 .quote {
