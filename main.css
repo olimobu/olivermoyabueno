@@ -1,147 +1,144 @@
-/* TIPOGRAFÍAS */
-
 @font-face {
-  font-family: "Raleway";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Raleway"), url(fonts/Raleway/Raleway-Regular.woff) format("woff");
+    font-family: Montez;
+    src: "fonts/Montez-Regular.woff2";
 }
 
 @font-face {
-  font-family: "Open_sans";
-  font-style: normal;
-  font-weight: 400;
-  src: local("Open_sans"),
-    url(fonts/Open_sans/OpenSans-Regular.woff) format("woff");
+    font-family: Raleway;
+    src: "fonts/Raleway-Regular.woff2";
 }
 
-/* RESET */
+@font-face {
+    font-family: OpenSans;
+    src: "fonts/OpenSans-Regular.woff2";
+}
 
 body {
-  margin: 0;
-  background-color: #f2f1f0;
-  color: #0d171a;
+    margin: 0 auto;
+    color: #1F1F20;
+    background-color: #FCF6F5;
+    font-family: "OpenSans", sans-serif;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  font-family: "Raleway", "sans-serif";
-}
-
-p,
-li {
-  font-family: "Open_sans", "sans-serif";
-}
-
-a {
-  color: #1f547e;
-}
-
-/* NAV */
-
-.nav {
-  text-align: center;
-  background-color: #0d171a;
-  padding: 1.5vw;
-  font-family: "Raleway", "sans-serif";
-  color: #f2f1f0;
-}
-
-.nav a {
-  color: #f2f1f0;
-  text-decoration: none;
-  padding: 1.5vw;
-}
-
-.nav a:hover {
-  background-color: #1f547e;
-  transition: background-color 0.3s;
-}
-
-/* CONTENT */
-
-#content {
-  margin-top: 3em;
-  margin-left: 12%;
-  margin-right: 12%;
-}
-
-section {
-  margin-top: 3em;
-  margin-bottom: 3em;
-}
-
-h1,
-hr,
-#logo {
-  text-align: center;
-}
-
-#logo img {
-  width: 22vmin;
+header {
+    margin-left: 10%;
+    margin-right: 10%;
 }
 
 hr {
-  border: 0;
-  height: 1px;
-  background-image: linear-gradient(
-    to right,
-    rgba(0, 0, 0, 0),
-    rgba(0, 0, 0, 0.75),
-    rgba(0, 0, 0, 0)
-  );
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0));
+    margin-top: 50px;
+    ;
 }
 
-/* ICONOS */
-
-.icons {
-  display: flex;
-  justify-content: space-around;
-  flex-wrap: wrap;
+a {
+    font-weight: 500;
+    color: #FF8200;
 }
 
-.icons img {
-  width: 60px;
+a:link {
+    text-decoration: none;
 }
 
-.icons figcaption {
-  text-align: center;
+a:visited {
+    text-decoration: none;
+    color: #1E1D7A;
 }
 
-/* VIDEOS */
-
-.video-container {
-  position: relative;
-  padding-bottom: 56.25%;
-  overflow: hidden;
+a:hover {
+    text-decoration: underline;
 }
 
-.video-container iframe,
-.video-container object,
-.video-container embed {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
+a:active {
+    text-decoration: underline;
 }
 
-/* CITAS */
-
-blockquote {
-  margin-top: 10px;
-  margin-bottom: 10px;
-  margin-left: 50px;
-  padding-left: 15px;
-  border-left: 3px solid #ccc;
+h1,
+footer {
+    text-align: center;
 }
 
-/* FOOTER */
+h1 {
+    font-family: "Montez", sans-serif;
+    font-size: 2.1em;
+    font-weight: 600;
+}
 
-footer p {
-  font-family: "Raleway", "sans-serif";
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+p {
+    margin-left: 2.5em;
+}
+
+section {
+    margin-top: 3em;
+    margin-bottom: 3em;
+}
+
+figure {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 8px;
+    height: auto;
+    width: 100%;
+    max-width: 215px;
+}
+
+iframe {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+footer {
+    text-align: center;
+    background-color: #1F1F20;
+    padding: 1em;
+    font-family: "Raleway", "sans-serif";
+    color: #FCF6F5;
+    margin-top: 40px;
+}
+
+#webmargin {
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.navigation img {
+    max-width: 30px;
+}
+
+.quote {
+    margin-top: 0em;
+    margin-bottom: 1em;
+    margin-left: 2.5em;
+    margin-right: 0em;
+    background: antiquewhite;
+    padding: 0.5em;
+    border-radius: 1em;
+}
+
+.quote figcaption,
+.quote blockquote {
+    margin: 1em;
 }
