@@ -125,6 +125,10 @@ footer {
     justify-content: space-around;
 }
 
+.navigation figure {
+    margin: 0px;
+}
+
 .navigation img {
     max-width: 30px;
 }
