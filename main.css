@@ -126,7 +126,7 @@ footer {
 }
 
 .navigation figure {
-    margin: 0px;
+    margin: 0px !important;
 }
 
 .navigation img {
