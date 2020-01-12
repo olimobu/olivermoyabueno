@@ -67,7 +67,7 @@ h1 {
 
 h2 {
     font-family: "Raleway",
-    sans-serif;
+        sans-serif;
     font-size: 1.5em;
     font-weight: 500;
 }
@@ -114,7 +114,7 @@ footer {
     margin-left: 15%;
     margin-right: 15%;
     font-family: "OpenSans",
-    sans-serif;
+        sans-serif;
 }
 
 .navigation {
@@ -149,4 +149,18 @@ footer {
 .quote figcaption,
 .quote blockquote {
     margin: 1em;
+}
+
+@media only screen and (max-width: 414px) {
+    #content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+@media only screen and (max-width: 320px) {
+    #content {
+        margin-left: 2%;
+        margin-right: 2%;
+    }
 }
