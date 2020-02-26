@@ -1,7 +1,9 @@
-@font-face {
+/* @font-face {
     font-family: Montez;
     src: "fonts/Montez-Regular.woff2";
-}
+} */
+
+@import url('https://fonts.googleapis.com/css?family=Montez&display=swap');
 
 @font-face {
     font-family: Raleway;
