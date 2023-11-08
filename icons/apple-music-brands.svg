@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   viewBox="0 0 49.6 51.2"
+   width="496"
+   height="512"
+   version="1.1"
+   id="svg1"
+   sodipodi:docname="apple-music-brands.svg"
+   inkscape:version="1.3 (0e150ed6c4, 2023-07-21)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <defs
+     id="defs1" />
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:zoom="0.777"
+     inkscape:cx="204.6332"
+     inkscape:cy="103.6036"
+     inkscape:window-width="1920"
+     inkscape:window-height="991"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg1" />
+  <path
+     d="M 38.742091,0.9513414 H 11.257909 c -5.682354,0 -10.3065676,4.6230684 -10.3065676,10.3065676 v 27.484182 c 0,5.6835 4.6242136,10.306568 10.3065676,10.306568 h 27.484182 c 5.682354,0 10.306568,-4.623068 10.306568,-10.306568 V 11.257909 c 0,-5.6834992 -4.624214,-10.3065676 -10.306568,-10.3065676 z M 36.451742,27.290348 v 4.580697 0.02405 h -0.0023 c -0.01375,3.145793 -2.575497,5.701822 -5.723581,5.701822 H 30.15326 c -1.130287,0 -2.213623,-0.480973 -2.972872,-1.31924 -0.758105,-0.837123 -1.127997,-1.967409 -1.01577,-3.097696 0.20384,-2.018942 2.026958,-3.599282 4.152401,-3.599282 h 1.554002 c 1.263128,0 2.290348,-1.027223 2.290348,-2.29035 V 16.073368 L 20.419278,18.65001 v 12.075861 4.580698 c 0,3.157244 -2.568625,5.725871 -5.725871,5.725871 h -0.572586 c -1.130288,0 -2.213622,-0.480974 -2.972872,-1.319242 -0.758106,-0.837122 -1.127997,-1.967409 -1.01577,-3.097697 0.203841,-2.018941 2.026959,-3.599282 4.152401,-3.599282 h 1.554002 c 1.263127,0 2.290348,-1.02722 2.290348,-2.290348 V 13.952504 c 0,-1.102802 0.786736,-2.049862 1.870069,-2.251412 L 34.417913,8.9984806 c 0.502732,-0.095049 1.020349,0.03779 1.413144,0.3653106 0.395086,0.3275199 0.620685,0.8096378 0.620685,1.3215308 z"
+     id="path1"
+     style="stroke-width:1.14517" />
+</svg>
